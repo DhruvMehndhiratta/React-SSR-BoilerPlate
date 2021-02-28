@@ -24,7 +24,7 @@ body {
   display: flex;
   background: $white;
   padding: 24px;
-  border-bottom: 1px solid #F2F2F2;
+  border-bottom: 1px solid $light-white;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
@@ -38,14 +38,14 @@ body {
     justify-content: space-between;
     display: flex;
     i {
-      color: #904BF2;
+      color: $brand-purple;
       font-size: 16px;
       span{
         margin-left: 10px;
       }
     }
     .fa-user-circle{
-      color: #89c189;
+      color: $light-green;
       font-size: 24px;
     }
   }
@@ -65,7 +65,7 @@ body {
   }
   input {
     width: auto;
-    border: 1px solid #FFFFFF;
+    border: 1px solid $white;
     border-radius: 24px;
   }
 }
@@ -75,8 +75,8 @@ body {
   .badges-list{
     display: flex;
     .badge{
-      border: 1px solid #E0E0E0;
-      background: #FFFFFF;
+      border: 1px solid $badge-default-color;
+      background: $white;
       border-radius: 24px;
       padding: 10px 24px;
       margin-right: 16px;
@@ -84,7 +84,7 @@ body {
     i{
       display: flex;
       align-items: center;
-      background: #E0E0E0;
+      background: $badge-default-color;
       border-radius: 25px;
       width: 40px;
       justify-content: center;
@@ -93,7 +93,7 @@ body {
   }
   h5{
     margin: 48px 0 0 0;
-    color: #1C1C1C;
+    color: $primary;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -120,13 +120,13 @@ body {
         border: 0;
         .nav-link{ 
           font-size: 12px;
-          color: #A1A6AC;
+          color: $nav-default-color;
         }
       }
       .nav-tabs .nav-link.active{
-        color: #1C1C1C !important;
+        color: $primary !important;
         border: 0;
-        border-bottom: 2px solid #904BF2;
+        border-bottom: 2px solid $brand-purple;
       }
       .tab-content{
         margin-top: 10px;
@@ -142,7 +142,7 @@ body {
         margin: 0;
       }
       .title{
-        color: #1C1C1C;
+        color: $primary;
         font-size: 24px;
         line-height: 32px;
         display: flex;
@@ -154,7 +154,7 @@ body {
         }
       }
       .name{
-        color: #A1A6AC;
+        color: $nav-default-color;
         font-size: 16px;
         font-weight: 300;
         margin: 15px 0;
@@ -166,7 +166,7 @@ body {
         font-weight: normal;
         font-size: 14px;
         line-height: 124%;
-        color: #444444;
+        color: $gray-black;
       }
       .booking-section{
         display: flex;
@@ -175,7 +175,7 @@ body {
         margin-top: 10px;
         .btn {
           padding: 12px 55px;
-          background: #101011;
+          background: $secondary;
           font-family: Open Sans;
           font-style: normal;
           font-weight: normal;
@@ -186,7 +186,7 @@ body {
           text-transform: uppercase;
         }
         i{
-          color: #904BF2;
+          color: $brand-purple;
           cursor: pointer;
         }
       }
