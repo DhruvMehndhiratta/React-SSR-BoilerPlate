@@ -1,5 +1,5 @@
 {
-  "homepage": "https://com:DhruvMehndhiratta.github.io/React-SSR-BoilerPlate",
+  "homepage": "https://com:DhruvMehndhiratta.github.io/eact-ssr-boilerplate",
   "name": "react-ssr-boilerplate",
   "version": "5.1.0",
   "private": true,
@@ -17,7 +17,7 @@
     "docker:start": "docker run --rm -it -p 3000:3000 cullenjett/react-ssr-boilerplate",
     "docker": "npm run docker:build && npm run docker:start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "husky": {
     "hooks": {
