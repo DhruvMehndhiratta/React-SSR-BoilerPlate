@@ -3,7 +3,7 @@ import FindOffer from '../common/FindOffer';
 import Badge from '../common/Badge';
 import OfferCards from '../common/OfferCards';
 
-import { Row, Container } from 'react-bootstrap';
+import { Row, Container, Button } from 'react-bootstrap';
 
 const badgeList = [
   'Location',
@@ -35,6 +35,9 @@ const Home = () => {
         {[...Array(10)].map(item => (
           <OfferCards />
         ))}
+        <div className="show-more">
+          <Button>Show More</Button>
+        </div>
       </Container>
     </div>
   );
